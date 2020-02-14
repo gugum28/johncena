@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>John Cena WWE</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section>
+  	<div class="content">
+  		<div>
+  			<h2>John Cena</h2>
+  			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, odio voluptates esse dolorem laboriosam eum provident aliquam cum totam odit, minus architecto ea earum repudiandae perferendis. Corporis dolorem nihil assumenda quos explicabo ut, eligendi facilis mollitia delectus vel repudiandae debitis.</p>
+  			<a href="#">Watch Up</a>
+  		</div>
+  	</div>
+
+  	<div class="imgbx">
+  		<img src="img/content/john_cena.png" alt="">
+  	</div>
+  	<ul class="nav" id="nav">
+  		<li><a href="#" class="active">Home</a></li>
+  		<li><a href="#">About</a></li>
+  		<li><a href="#">Perfomance</a></li>
+  		<li><a href="#">Team</a></li>
+  		<li><a href="#">Rank</a></li>
+  	</ul>
+  	<ul class="sci">
+  		<li><a href="#">Facebook</a></li>
+  		<li><a href="#">Twitter</a></li>
+  		<li><a href="#">Instagram</a></li>
+  	</ul>
+  </section>
+  <span class="menuicon" id="toggle" onclick="menuToggle()"></span>
+  <script type="text/javascript">
+  	function menuToggle() {
+  		var nav = document.getElementById("nav")
+  		nav.classList.toggle('active')
+
+  		var toggle = document.getElementById("toggle")
+  		toggle.classList.toggle('active')
+  	}
+  </script>
+</body>
+</html>
